@@ -18,7 +18,7 @@ export default function AppRouter (){
         <Switch>
             <Route  path='/detalle/:id' component={ DetailsScreen } />
             <Route  path='/search' component={ SearchScreen } />
-            <Route exact path='/' component={ HomeScreen } />
+            <Route path='/' component={ HomeScreen } />
         </Switch>
       </div>
     </Router>
