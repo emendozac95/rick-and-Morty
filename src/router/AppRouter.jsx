@@ -19,6 +19,8 @@ export default function AppRouter (){
             <Route  path='/detalle/:id' component={ DetailsScreen } />
             <Route  path='/search' component={ SearchScreen } />
             <Route path='/' component={ HomeScreen } />
+
+            <Redirect to='/' component={ HomeScreen } />
         </Switch>
       </div>
     </Router>
