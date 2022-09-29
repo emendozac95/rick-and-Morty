@@ -6,6 +6,9 @@ const ReactRefreshPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 const devConfig = {
     mode: 'development',
+    output: {
+      publicPath: '/'
+  },
     devServer: {
         static: {
           directory: path.join(__dirname, '../dist'),
