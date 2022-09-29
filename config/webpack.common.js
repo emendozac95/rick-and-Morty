@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
     entry: './src/index.js',
     output: {
-        filename: 'bundle.[fullhash].js',
+        filename: 'assets/bundle.[fullhash].js',
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/'
     },
